@@ -1,0 +1,33 @@
+.studp {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+/* ::placeholder{
+    color: aliceblue;
+} */
+.enroll {
+    text-align: left!important;
+    position: relative;
+    line-height: 21px;
+    right: 11rem;
+    top: -8rem;
+}
+/* .enr{
+    top: -19rem;
+    margin-left: -56rem;
+} */
+.enro {
+    position: relative;
+    right: 37rem;
+    top: -8rem;
+}
+
+@media screen and (max-width: 992px){
+    .enroll{
+        right: 48px;
+    }
+    /* .enroll{
+        right: 48px;
+    } */
+}

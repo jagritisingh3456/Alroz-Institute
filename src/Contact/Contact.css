@@ -1,0 +1,31 @@
+.btn--light {
+    background: #FFBD59;
+    color: #000;
+}
+p{
+    text-align: justify;
+}
+.contact-us{
+    /* background: #adb5bd4f; */
+}
+/* .contact-form .contact-form {
+    max-width: 550px;
+    position: relative;
+    background: #FFF;
+    -webkit-box-shadow: 0px 10px 30px rgba(4, 33, 63, 0.05);
+    box-shadow: 0px 10px 30px rgba(4, 33, 63, 0.05);
+} */
+.roundeds {
+    border-radius: 0.25rem!important;
+    position: absolute;
+    /* top: 2px; */
+    right: 0px;
+    z-index: 1;
+    /* height: 38.5rem; */
+}
+
+@media only screen and (max-width: 768px) {
+    .roundeds  {
+      position: relative;
+    }
+  }
